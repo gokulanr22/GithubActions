@@ -4,8 +4,8 @@ on: push
 jobs:
   Python:
    runs-on: ubuntu-latest
-
-  steps:
+   
+   steps:
     - name: firststep
       uses: actions/checkout@v5 
  
