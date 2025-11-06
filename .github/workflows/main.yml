@@ -1,0 +1,10 @@
+name: gokul
+on: push
+
+jobs:
+  Gokultry:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Newone
+        run: echo"Hello World"
