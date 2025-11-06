@@ -3,16 +3,16 @@ on: push
 
 jobs:
   Python:
-  runs-on: ubuntu-latest
+   runs-on: ubuntu-latest
 
   steps:
-   - name: firststep
-     uses: actions/checkout@v5 
+    - name: firststep
+      uses: actions/checkout@v5 
  
-   - name: Python Setup
-     uses: actions/setup-python@v6
-     with:
+    - name: Python Setup
+      uses: actions/setup-python@v6
+      with:
         python-version: '3.13'
     
-   - name: execute script
-     run: python hello.py
+    - name: execute script
+      run: python hello.py
